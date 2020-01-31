@@ -1,9 +1,3 @@
-def greeting_programmer(name, language)
-  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+def introduction(name)
+  puts "Hi, my name is #{name}."
 end
- 
-greeting_programmer("Sophie", "Ruby")
-# > Hello, Sophie. We heard you are a great Ruby programmer.
- 
-greeting_programmer("Steven", "Elixir")
-# > Hello, Steven. We heard you are a great Elixir programmer.
